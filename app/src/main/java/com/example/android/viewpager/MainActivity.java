@@ -38,10 +38,6 @@ public class MainActivity extends AppCompatActivity {
         SimpleFragmentPagerAdapter adapter = new SimpleFragmentPagerAdapter(getSupportFragmentManager());
 
         // Set the adapter onto the view pager
-        try {
-            viewPager.setAdapter(adapter);
-        } catch (NullPointerException e) {
-
-        }
+        viewPager.setAdapter(adapter);
     }
 }
